@@ -13,7 +13,7 @@ qt_add_executable(appOverlayStarter
 )
 
 qt_add_qml_module(appOverlayStarter
-    URI Logi
+    URI OverlayAppStarter
     VERSION 1.0
     QML_FILES
         Main.qml
@@ -22,7 +22,6 @@ qt_add_qml_module(appOverlayStarter
 
     RESOURCES
         styles/Theme.js
-        RESOURCES README.md
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
