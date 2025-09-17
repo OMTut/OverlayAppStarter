@@ -26,7 +26,7 @@ A Qt Quick overlay application featuring a window that stays on top of other app
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd Logi
+   cd OverLayAppStarter
    ```
 
 2. **Configure with CMake**
@@ -41,7 +41,7 @@ A Qt Quick overlay application featuring a window that stays on top of other app
 
 4. **Run the application**
    ```bash
-   .\build\Release\appLogi.exe
+   .\build\Release\appOverlayStarter.exe
    ```
 
 ### Development Build
